@@ -1,0 +1,26 @@
+
+
+@font-face{
+  font-family:'Oswald-Regular';
+  src:url(../src//data/fonts/Oswald//Oswald-Regular.ttf) format('truetype');
+}
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: 'Montserrat', sans-serif;
+
+  --Primary:#a5cc2b;
+  --Secondary:#1f2423;
+  --Third:#785dd2;
+  --Fourth:#d5ceef;
+  --Black:#000000;
+  --white:#ffffff;
+  --Text-Family-Oswald:'Oswald-Regular',sans-serif;
+
+  /*background: linear-gradient(to left top, #a5cc2b, #61a442, #317948, #1f4e3d, #1f2423);*/
+}
+
+
+
