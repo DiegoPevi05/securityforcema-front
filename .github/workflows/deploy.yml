@@ -52,9 +52,9 @@ jobs:
         curl -X POST -H 'Content-type: application/json' --data '{"text":"'"${SLACK_MESSAGE}"'"}' ${{ secrets.SLACK_WEBHOOK_URL }}
     - name: Deploy
       env:
-        SLACK_MESSAGE: " * App Deployed Successfully :react: :javascript:"
+        SLACK_MESSAGE: " * App Deployed Successfully :react: :javascript: :styledcomponent:"
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       run: |
         echo "${SLACK_MESSAGE}"
-        scp -P 65002 -r dist/* u996714911@145.14.151.58:/home/u996714911/domains/securityforcema.com/public_html/
+        scp -P 65002 -r build/* u996714911@145.14.151.58:/home/u996714911/domains/securityforcema.com/public_html/
         curl -X POST -H 'Content-type: application/json' --data '{"text":"'"${SLACK_MESSAGE}"'"}' ${{ secrets.SLACK_WEBHOOK_URL }}
