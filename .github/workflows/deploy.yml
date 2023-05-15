@@ -38,6 +38,7 @@ jobs:
       env:
         SLACK_MESSAGE: " * Building React App Build Folder :react:"
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        CI: false
       run: |
         echo "${SLACK_MESSAGE}"
         npm run build
