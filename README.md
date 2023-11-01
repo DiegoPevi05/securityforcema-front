@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="https://securityforcema.com" target="_blank">
+    <img src="https://github.com/DiegoPevi05/securityforcema-front/blob/main/public/logo192.png" width="200">
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Landing Page Security Force ma
 
-## Available Scripts
+This Front-End application is developed to show the content of the landing page [securityforcema](https://securityforcema.com) .
+Welcome to the Front-End WebPage of Securiy Force MA! This landing page is deisgined to show the content and products of the desserts business.Here are the key features and details of this application:
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Interactive Animations and Stylish Design:** The landing page features captivating animations and a well-crafted design that captures the essence of body positivity. It provides a visually appealing and engaging experience for visitors.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Hosted on Hostinger:** The landing page is seamlessly hosted on Hostinger, ensuring reliable and scalable communication capabilities. Visitors can easily reach out and engage with the platform.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Contact Form:** The landing page has a contact form that guarantee that users can connect to the company and share their opinions, thougths or questions.
 
-### `npm test`
+## Dependencies and Libraries
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project relies on the following key dependencies and libraries:
 
-### `npm run build`
+- [framer-motion](https://github.com/framer/motion#readme)
+- [axios](https://axios-http.com/)
+- [react-router](https://reactrouter.com/en/main)
+- [lucide-react](https://lucide.dev/guide/packages/lucide-react)
+- [styled-components](https://styled-components.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation and Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To install the project on your local machine, you can follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone this repository to your local directory.
+2. Install project dependencies using the following command:
+```
+npm install
+```
+3. After all dependencies are installed you should run:
+```
+npm run dev
+```
+## Screenshots
 
-### `npm run eject`
+Here are some screenshots showcasing the landing page in action:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Image1](https://github.com/DiegoPevi05/securityforcema-front/blob/main/public/web_1.png?raw=true)
+![Image2](https://github.com/DiegoPevi05/securityforcema-front/blob/main/public/web_2.png?raw=true)
+![Image3](https://github.com/DiegoPevi05/securityforcema-front/blob/main/public/web_3.png?raw=true)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for exploring the content of this README.md file. If you have any questions or suggestions, please feel free to reach out!
